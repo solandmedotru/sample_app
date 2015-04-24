@@ -18,3 +18,4 @@ doc/
 .idea
 bundler_stubs/
 .secret
+database.yml
