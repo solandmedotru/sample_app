@@ -29,6 +29,7 @@ group :test do
   gem 'capybara'
   gem 'rb-notifu'
   gem 'wdm'
+  gem 'factory_girl_rails'
 end
 
 group :doc do
