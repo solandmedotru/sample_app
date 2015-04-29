@@ -46,6 +46,8 @@ GEM
     bcrypt (3.1.10-x86-mingw32)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.2.2)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -85,6 +87,8 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    faker (1.4.3)
+      i18n (~> 0.5)
     ffi (1.9.8-x86-mingw32)
     formatador (0.2.5)
     gherkin (2.12.2-x86-mingw32)
@@ -252,6 +256,7 @@ GEM
       json (>= 1.8.0)
     wdm (0.1.0)
     websocket (1.2.2)
+    will_paginate (3.0.7)
     win32-process (0.7.5)
       ffi (>= 1.0.0)
     win32console (1.3.2-x86-mingw32)
@@ -264,12 +269,14 @@ PLATFORMS
 DEPENDENCIES
   bcrypt
   bootstrap-sass (= 2.3.2.0)
+  bootstrap-will_paginate
   capybara
   childprocess
   coffee-rails
   cucumber-rails
   database_cleaner!
   factory_girl_rails
+  faker
   guard-rspec
   guard-spork
   jbuilder
@@ -288,3 +295,4 @@ DEPENDENCIES
   tzinfo-data
   uglifier
   wdm
+  will_paginate (~> 3.0.6)
